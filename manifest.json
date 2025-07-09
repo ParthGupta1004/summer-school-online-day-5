@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Weather Info",
+  "version": "1.0",
+  "description": "Get current weather info by entering a city name.",
+  "permissions": ["geolocation"],
+  "host_permissions": ["https://api.weatherapi.com/"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon/icon.png"
+  }
+}
